@@ -25,7 +25,7 @@ if not model_file.exists():
     # Since we know, here the model is dictionary data, we can store in json file
     # saving a json file 
     import json
-    with open('model.json', 'w') as f:
+    with open('helpers/model.json', 'w') as f:
         json.dump(model, f)
     print('Model saved successfully!!')
 else:
